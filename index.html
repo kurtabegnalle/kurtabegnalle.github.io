@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="/img/logo.ico" type="image/x-icon">
+    <title>WEB3 TRACKER</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet" />
+    <link href="fontawesome/css/all.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script>
+    <script type="text/javascript" language="javascript" src="js/punycode.js"></script>
+    <script type="text/javascript" language="javascript" src="js/tonweb-0.0.26.js"></script>
+  </head>
+  <body>
+
+
+    <div class="tm-container">
+
+      <div class="tm-text-white tm-page-header-container">
+        <div class="tm-page-icon"></div>
+        <h1 class="tm-page-header">WEB3 TRACKER</h1>
+        <button id="ton-connect"></button>
+      </div>
+      <div class="tm-main-content">
+
+        <section class="tm-section">
+          <h2 class="tm-section-header">YOUR DOMAINS</h2>
+          <h3 class="tm-section-header" id="domtotal">Total: </h3>
+          <div id="connect-your-wlt">
+            <p>Please connect your wallet to see the list of your domains</p>
+          </div>
+          <div id="img-loading">
+            <img src="./img/loading.gif">
+            <p>The list of your domains is being uploaded. Please, wait.</p>
+          </div>
+          <div id="domain-table" class="tm-responsive-table"></div>
+        </section>
+
+        <hr />
+
+        <section class="tm-section tm-section-small">
+          <h2 class="tm-section-header">INFORMATION</h2>
+          <p class="tm-mb-0">
+            Unfortunately, due to the limitations of the toncenter api, sometimes with a large number of domains you need to wait a little bit.
+          </p>
+          <p class="tm-mb-0">
+            Also, sometimes a "Data error" may appear in the "Expires" column.
+          </p>
+          <p class="tm-mb-0">
+            Now we need 25 TON per month so that requests via the toncenter api are processed instantly and without errors.
+          </p>
+          <p class="tm-mb-0">
+            You can help us raise the necessary amount by donating 1 TON.
+          </p>
+          <div class="divbtn">
+            <button onclick="transaction()" class="glow-on-hover" type="button">DONATE 1 TON</button>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <p class="tm-text-white tm-footer-text">
+          Copyright &copy; 2024 Web3 Tracker
+          . Developer:
+          <a href="https://t.me/teen_spirit_4325" class="tm-footer-link">Contact me in telegram</a>
+        </p>
+      </footer>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/tonconnect.js"></script>
+
+  </body>
+</html>

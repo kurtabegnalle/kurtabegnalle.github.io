@@ -1,0 +1,298 @@
+body {
+  background-color: #415f7a;
+  color: #8c8c8c;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 15px;
+  margin: 0;
+}
+
+.tm-container {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 665px;
+}
+
+#ton-connect {
+  position: absolute;
+  right: 0;
+  margin-top: 5px;
+  border: none;
+  background-color: #415f7a;
+  height: 46px;
+}
+
+#img-loading {
+  text-align: center;
+  display: none;
+}
+
+#connect-your-wlt {
+  text-align: center;
+  display: block;
+}
+
+#img-loading, #connect-your-wlt p {
+  margin-top: 0;
+}
+
+#img-loading img{
+  width: 70px;
+  height: 70px;
+}
+
+.tm-main-content {
+  background-color: #ffffff;
+}
+
+.tm-text-white { color: white; }
+
+.tm-page-header-container {
+  text-align: center;
+  position: relative;
+}
+
+.tm-page-header {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
+  font-size: 2.1rem;
+  font-weight: 400;
+}
+
+.tm-page-icon {
+  display: inline-block;
+  vertical-align: top;
+  background-image: url("../img/dnslogo.png");
+  background-size: cover;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 60px;
+  height: 60px;
+}
+
+.tm-section-header {
+  color: #996633;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+h3.tm-section-header {
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+#domtotal {
+  display: none;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+  text-align: left;
+  color: #333333;
+}
+
+td {
+  text-align: left;
+  padding: 10px 15px;
+}
+
+table tr td:first-child {
+  width: 80%;
+}
+
+table tr td:last-child {
+  text-align: center;
+}
+
+table tr th:last-child {
+  text-align: center;
+}
+
+.tm-text-left { text-align: left; }
+
+th {
+  color: #333333;
+  font-weight: 800;
+  font-size: 1.2rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #c4cdd6;
+  height: 50px;
+  cursor: pointer;
+}
+
+tr:nth-child(odd) { background-color: #e5e8ed; }
+
+
+.tm-section {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+
+.tm-section-small {
+  max-width: 490px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.tm-mb-0 {
+  margin-bottom: 0;
+  text-align: center;
+}
+img { max-width: 100%; }
+figure { margin: 0; }
+figcaption { text-align: center; }
+
+figcaption span {
+  display: block;
+  color: #333333;
+  font-size: 18px;
+}
+
+.tm-item-name {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.tm-special-items {
+  display: flex;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.tm-special-item {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+hr {
+  width: 60%;
+  border: 0.5px solid #ccc;
+}
+
+.tm-social-icons {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.tm-social-icons i { font-size: 1.2rem; }
+.tm-social-link-container { display: inline-block; }
+
+.tm-social-link {
+  color: white;
+  background-color: #c5ced8;
+  border-radius: 2px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.tm-social-link:hover { background-color: #808e9e; }
+
+.tm-contact-link {
+  color: #333333;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a { transition: all 0.3s ease; }
+.tm-contact-link:hover { color: #808e9e; }
+
+.tm-footer-text {
+  font-size: 0.9rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.tm-footer-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.tm-footer-link:hover { color: #c5ced8; }
+
+.glow-on-hover {
+  width: 180px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  left: 50%;
+  margin-left: -90px;
+  margin-top: 20px;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #1e9ef8, #4000ff, #587288, #49fdd4, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover:active {
+  color: #000
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+
