@@ -12,13 +12,12 @@ body {
 .tm-container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 700px;
+  max-width: 640px;
 }
 
 #ton-connect {
   position: absolute;
   right: 0;
-  margin-top: 5px;
   border: none;
   background-color: #415f7a;
   height: 46px;
@@ -58,7 +57,7 @@ body {
   display: inline-block;
   vertical-align: top;
   margin-top: 5px;
-  font-size: 2.1rem;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
@@ -69,8 +68,8 @@ body {
   background-size: cover;
   margin-right: 10px;
   margin-bottom: 10px;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
 }
 
 .tm-section-header {
@@ -294,19 +293,4 @@ a { transition: all 0.3s ease; }
   0% { background-position: 0 0; }
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
-}
-
-@media only screen and (max-width: 720px) {
-  .tm-page-header {
-    font-size: 1.5rem;
-  }
-  
-  .tm-page-icon {
-    width: 40px;
-    height: 40px;
-  }
-
-  #ton-connect {
-    top: -5px;
-  }
 }
