@@ -81,7 +81,7 @@ const unsubscribe = tonConnectUI.onStatusChange(
                 $('#img-loading').hide();
 
                 if (arrayForTable.length > 1) {
-                    $('#domtotal').text("Total: " + arrayForTable.length);
+                    $('#domtotal').text("Total: " + (arrayForTable.length - 1));
                     $('#domtotal').show();
                     var table = arrayToTable(arrayForTable, {
                         thead: true,
